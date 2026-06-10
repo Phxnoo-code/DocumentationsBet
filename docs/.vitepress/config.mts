@@ -8,12 +8,84 @@ export default defineConfig({
   // Enforce dark mode by default
   appearance: 'dark',
 
+  locales: {
+    root: {
+      label: 'ไทย',
+      lang: 'th',
+      themeConfig: {
+        nav: [
+          { text: 'คู่มือการใช้งาน', link: '/' },
+        ],
+        sidebar: [
+          {
+            text: 'แนะนำการใช้งาน',
+            items: [
+              {
+                text: 'ภาพรวมระบบ',
+                collapsed: false,
+                items: [
+                  { text: 'แดชบอร์ด', link: '/dashboard' },
+                  { text: 'วิเคราะห์โปรโมชั่น', link: '/promotions-analytics' },
+                  { text: 'ค่าเฉลี่ยตามแหล่งที่มา', link: '/traffic-source' },
+                  { text: 'ผู้ใช้ออนไลน์', link: '/online-users' }
+                ]
+              },
+              {
+                text: 'การตั้งค่าเริ่มต้น',
+                collapsed: false,
+                items: [
+                  { text: 'จัดการชื่อเว็บ', link: '/website-info' },
+                  { text: 'จัดการเนื้อหาหน้าเว็บ', link: '/website-content' },
+                  { text: 'ตั้งค่า SEO & Tracking ', link: '/seo-tracking' },
+                  { text: 'ตั้งค่าธุรกรรม ', link: '/transaction-setup' }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    en: {
+      label: 'English',
+      lang: 'en',
+      link: '/en/',
+      themeConfig: {
+        nav: [
+          { text: 'User Guide', link: '/en/' },
+        ],
+        sidebar: [
+          {
+            text: 'Introduction',
+            items: [
+              {
+                text: 'System Overview',
+                collapsed: false,
+                items: [
+                  { text: 'Dashboard', link: '/en/dashboard' },
+                  { text: 'Promotion Analysis', link: '/en/promotions-analytics' },
+                  { text: 'Marketing Source Analysis', link: '/en/traffic-source' },
+                  { text: 'Online Users', link: '/en/online-users' }
+                ]
+              },
+              {
+                text: 'Initial Settings',
+                collapsed: false,
+                items: [
+                  { text: 'Website Info', link: '/en/website-info' },
+                  { text: 'Website Content', link: '/en/website-content' },
+                  { text: 'SEO & Tracking', link: '/en/seo-tracking' },
+                  { text: 'Transaction Setup', link: '/en/transaction-setup' }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'คู่มือการใช้งาน', link: '/' },
-    ],
-
     search: {
       provider: 'local',
       options: {
@@ -62,43 +134,27 @@ export default defineConfig({
                 }
               }
             }
+          },
+          en: {
+            translations: {
+              button: {
+                buttonText: 'Search documentation...',
+                buttonAriaLabel: 'Search documentation'
+              },
+              modal: {
+                noResultsText: 'No results found',
+                resetButtonTitle: 'Clear query',
+                footer: {
+                  selectText: 'to select',
+                  navigateText: 'to navigate',
+                  closeText: 'to close'
+                }
+              }
+            }
           }
         }
       }
     },
-
-    // Default sidebar configurations for the system docs
-    sidebar: [
-      {
-        text: 'เเนะนำการใช้งาน (Introduction)',
-        items: [
-          {
-            text: 'ภาพรวมระบบ (Overview)', link: '/',
-            collapsed: false, // ตั้งเป็น false เพื่อให้กางออกเห็นเมนูด้านใน
-            items: [
-              { text: 'เเดชบอร์ด (Dashboard)', link: '/dashboard' },
-              { text: 'วิเคราะห์โปรโมชั่น (Promotion Analytics)', link: '/promotions-analytics' },
-              { text: 'ค่าเฉลี่ยตามแหล่งที่มา (Traffic Source Analysis)', link: '/traffic-source' },
-              { text: 'ผู้ใช้ออนไลน์ (Online Users)', link: '/online-users' }
-            ]
-          },
-          {
-            text: 'การตั้งค่าเริ่มต้น (Getting Started)',
-            collapsed: false, // ตั้งเป็น false เพื่อให้กางออกเห็นเมนูด้านใน
-            items: [
-              { text: 'จัดการชื่อเว็บ (Website Info)', link: '/website-info' },
-              { text: 'จัดการเนื้อหาหน้าเว็บ (Website Content)', link: '/website-content' },
-              { text: 'ตั้งค่า SEO & Tracking (การตลาดและค้นหา)', link: '/seo-tracking' },
-              { text: 'ตั้งค่าธุรกรรม (Transaction Settings)', link: '/transaction-setup' },
-
-
-
-            ]
-          },
-          //{ text: 'สถาปัตยกรรมระบบ (Core Architecture)', link: '/architecture' }
-        ]
-      }
-    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/phano/DocumentBet' }
