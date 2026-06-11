@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
+// ตัวอย่างการจัดโครงสร้าง config ให้ทำงานร่วมกันได้ดีขึ้น
+
 export default defineConfig({
   title: "Documentations",
   description: "Documentation Hub for Mega and StockSync systems.",
@@ -13,31 +15,35 @@ export default defineConfig({
       label: 'ไทย',
       lang: 'th',
       themeConfig: {
+        outline: [2, 3],
+
         nav: [
           { text: 'คู่มือการใช้งาน', link: '/' },
         ],
         sidebar: [
           {
-            text: 'แนะนำการใช้งาน',
+            text: 'คู่มือการใช้งาน',
             items: [
               {
                 text: 'ภาพรวมระบบ',
                 collapsed: false,
                 items: [
-                  { text: 'แดชบอร์ด', link: '/dashboard' },
-                  { text: 'วิเคราะห์โปรโมชั่น', link: '/promotions-analytics' },
-                  { text: 'ค่าเฉลี่ยตามแหล่งที่มา', link: '/traffic-source' },
-                  { text: 'ผู้ใช้ออนไลน์', link: '/online-users' }
+                  { text: 'แดชบอร์ด', link: '/menu/system-overview/dashboard' },
+                  { text: 'วิเคราะห์โปรโมชั่น', link: '/menu/system-overview/promotions-analytics' },
+                  { text: 'ค่าเฉลี่ยตามแหล่งที่มา', link: '/menu/system-overview/traffic-source' },
+                  { text: 'ผู้ใช้ออนไลน์', link: '/menu/system-overview/online-users' }
                 ]
               },
               {
-                text: 'การตั้งค่าเริ่มต้น',
+                text: 'สมาชิกและแรงก์',
                 collapsed: false,
                 items: [
-                  { text: 'จัดการชื่อเว็บ', link: '/website-info' },
-                  { text: 'จัดการเนื้อหาหน้าเว็บ', link: '/website-content' },
-                  { text: 'ตั้งค่า SEO & Tracking ', link: '/seo-tracking' },
-                  { text: 'ตั้งค่าธุรกรรม ', link: '/transaction-setup' }
+                  { text: 'สมาชิก', link: '/menu/member-ranks/members' },
+                  { text: 'พาร์ทเนอร์', link: '/menu/member-ranks/partners' },
+                  { text: 'ประวัติจ่ายพาร์ทเนอร์', link: '/menu/member-ranks/partner-payouts' },
+                  { text: 'แรงก์', link: '/menu/member-ranks/ranks' },
+                  { text: 'การตั้งค่า EXP', link: '/menu/member-ranks/exp-settings' },
+                  { text: 'แท็กผู้เล่น', link: '/menu/member-ranks/player-tags' }
                 ]
               }
             ]
@@ -50,42 +56,17 @@ export default defineConfig({
       lang: 'en',
       link: '/en/',
       themeConfig: {
+        outline: [2, 3],
+
         nav: [
           { text: 'User Guide', link: '/en/' },
         ],
-        sidebar: [
-          {
-            text: 'Introduction',
-            items: [
-              {
-                text: 'System Overview',
-                collapsed: false,
-                items: [
-                  { text: 'Dashboard', link: '/en/dashboard' },
-                  { text: 'Promotion Analysis', link: '/en/promotions-analytics' },
-                  { text: 'Marketing Source Analysis', link: '/en/traffic-source' },
-                  { text: 'Online Users', link: '/en/online-users' }
-                ]
-              },
-              {
-                text: 'Initial Settings',
-                collapsed: false,
-                items: [
-                  { text: 'Website Info', link: '/en/website-info' },
-                  { text: 'Website Content', link: '/en/website-content' },
-                  { text: 'SEO & Tracking', link: '/en/seo-tracking' },
-                  { text: 'Transaction Setup', link: '/en/transaction-setup' }
-                ]
-              }
-            ]
-          }
-        ]
       }
     }
   },
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    
     search: {
       provider: 'local',
       options: {
