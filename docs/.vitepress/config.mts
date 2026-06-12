@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 // ตัวอย่างการจัดโครงสร้าง config ให้ทำงานร่วมกันได้ดีขึ้น
 
 export default defineConfig({
-  base: '/DocumentBet/',
+  base: '/DocumentationsBet/',
   title: "Documentations",
   description: "Documentation Hub for Mega and StockSync systems.",
 
