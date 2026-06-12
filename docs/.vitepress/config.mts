@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 // ตัวอย่างการจัดโครงสร้าง config ให้ทำงานร่วมกันได้ดีขึ้น
 
 export default defineConfig({
+  base: '/DocumentBet/',
   title: "Documentations",
   description: "Documentation Hub for Mega and StockSync systems.",
 
@@ -66,7 +67,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    
+
     search: {
       provider: 'local',
       options: {
