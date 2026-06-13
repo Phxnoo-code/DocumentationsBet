@@ -80,7 +80,7 @@ export default defineConfig({
             tokenize: (text) => {
               if (typeof text !== 'string') return [];
               const normalizedText = text.replaceAll('เเ', 'แ');
-              const words = normalizedText.split(/[\s[\](){}:.,;?!'"“”‘’\\/`~@#$%^&*-+=<>]+/);
+              const words = normalizedText.split(/[\s\[\](){}:.,;?!'"“”‘’\\\/`~@#$%^&\-+=<>]+/);
               const tokens: string[] = [];
               for (const word of words) {
                 if (!word) continue;
