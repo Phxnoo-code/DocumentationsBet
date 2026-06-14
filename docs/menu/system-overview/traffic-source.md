@@ -9,7 +9,7 @@
 ## วิธีเข้าถึงหน้านี้
 * **ไปที่:** **เมนูหลังบ้าน** > หมวด **สรุปภาพรวม** > เลือกเมนูย่อย **ค่าเฉลี่ยตามแหล่งที่มา**
 
-## Quick Reference
+<!-- ## Quick Reference
 
 | ส่วน | ใช้สำหรับ |
 |---|---|
@@ -17,11 +17,11 @@
 | **ตัวกรองข้อมูล** | เลือกสถานะช่องทางและเดือนที่ต้องการวิเคราะห์ |
 | **ตารางค่าเฉลี่ยตามแหล่งที่มา** | เปรียบเทียบต้นทุน สมาชิก ฝาก/ถอน ค่าเฉลี่ย และกำไรของแต่ละช่องทาง |
 | **หน้าดูรายละเอียดช่องทาง** | วิเคราะห์พฤติกรรมสมาชิกที่มาจากช่องทางนั้นแบบเจาะลึก |
-| **UTM Link** | คัดลอกลิงก์ติดตามผลไปใช้กับแคมเปญโฆษณา |
+| **UTM Link** | คัดลอกลิงก์ติดตามผลไปใช้กับแคมเปญโฆษณา | -->
 
 ## รายละเอียดของแต่ละส่วนในหน้าจอ
 
-### 3.1 การ์ดสรุปยอดการตลาด
+### 1. สรุปภาพรวมยอดการตลาด
 
 <a href="/images/traffic-source/image-1.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-1.png" alt="การ์ดสรุปยอดการตลาด" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -36,7 +36,7 @@
 
 ---
 
-### 3.2 ตัวกรองข้อมูล
+### 2. ตัวกรองข้อมูล
 <a href="/images/traffic-source/image-2.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-2.png" alt="ตัวกรองข้อมูล" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
@@ -51,7 +51,7 @@
 
 ---
 
-### 3.3 ตารางค่าเฉลี่ยตามแหล่งที่มา
+### 3. ตารางค่าเฉลี่ยตามแหล่งที่มา
 <a href="/images/traffic-source/image-7.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-7.png" alt="ตารางค่าเฉลี่ย" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
@@ -67,11 +67,11 @@
 * **กำไร / หักต้นทุน** แสดงกำไรที่ได้รับ และกำไรสุทธิหลังหักต้นทุน หากตัวเลขเป็นสีแดงหรือติดลบ แสดงว่าช่องทางนั้นขาดทุน
 * **ปุ่ม  ดูรายละเอียด** ใช้เข้าสู่หน้าวิเคราะห์พฤติกรรมของสมาชิกในช่องทางนั้นแบบเจาะลึก
 
-#### 3.3.1 หน้าดูรายละเอียด (สรุปรายละเอียดช่องทางแบบเจาะลึก)
+#### 3.1 หน้าดูรายละเอียด (สรุปรายละเอียดช่องทางแบบเจาะลึก)
 
 เมื่อคลิก ดูรายละเอียด จากตารางหลัก ระบบจะพาเข้าสู่หน้าแดชบอร์ดของช่องทางนั้น (เช่น tiktok) เพื่อวิเคราะห์พฤติกรรมสมาชิก โดยแบ่งเป็น 4 ส่วนหลัก ดังนี้
 
-##### 3.3.1.1 ข้อมูลพื้นฐานและการ์ดสรุปสถิติ
+##### 3.1.1 ข้อมูลพื้นฐานและการ์ดสรุปสถิติ
 
 <a href="/images/traffic-source/image-4.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-4.png" alt="ข้อมูลพื้นฐานและการ์ดสรุปสถิติ" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -88,7 +88,7 @@
 
 ---
 
-##### 3.3.1.2 ตัวกรองข้อมูล
+##### 3.1.2 ตัวกรองข้อมูล
 
 <a href="/images/traffic-source/image-8.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-8.png" alt="ตัวกรองข้อมูล" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -101,7 +101,7 @@
 
 ---
 
-##### 3.3.1.3 ตารางค่าเฉลี่ยตามแหล่งที่มา
+##### 3.1.3 ตารางค่าเฉลี่ยตามแหล่งที่มา
 
 <a href="/images/traffic-source/image-5.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-5.png" alt="ตารางค่าเฉลี่ยตามแหล่งที่มา" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -123,7 +123,7 @@
 
 ---
 
-##### 3.3.1.4 สรุปตามประเภทเกม
+##### 3.1.4 สรุปตามประเภทเกม
 <a href="/images/traffic-source/image-6.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-6.png" alt="สรุปตามประเภทเกม" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
@@ -145,11 +145,11 @@
     * เลือกสื่อโฆษณาให้เหมาะกับประเภทเกม
     * เพิ่มประสิทธิภาพการลงทุน (ROI) และลดงบในช่องทางที่ไม่คุ้มค่า
 
-## 4. จัดการช่องทาง (ปุ่มสำคัญ: "จัดการช่องทาง")
+### 4. จัดการช่องทาง 
 
 คลิก จัดการช่องทาง เพื่อเข้าสู่หน้าบริหารแหล่งที่มาทางการตลาดและลิงก์โฆษณา
 
-### 4.1 แถบเครื่องมือและข้อแนะนำการใช้งาน
+#### 4.1 แถบเครื่องมือและข้อแนะนำการใช้งาน
 
 <a href="/images/traffic-source/image-10.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-10.png" alt="แถบเครื่องมือและข้อแนะนำการใช้งาน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -168,7 +168,7 @@
 
 ---
 
-### 4.2 สรุปภาพรวม
+#### 4.2 สรุปภาพรวม
 
 <a href="/images/traffic-source/image-11.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-11.png" alt="แถบเครื่องมือและข้อแนะนำการใช้งาน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -181,7 +181,7 @@
 
 ---
 
-### 4.3 ตัวกรองข้อมูล
+#### 4.3 ตัวกรองข้อมูล
 
 <a href="/images/traffic-source/image-12.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-12.png" alt="ตัวกรองข้อมูล " style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -192,7 +192,7 @@
 
 ---
 
-### 4.4 ตารางจัดการช่องทาง
+#### 4.4 ตารางจัดการช่องทาง
 
 <a href="/images/traffic-source/image-13.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/traffic-source/image-13.png" alt="ตารางข้อมูลและการจัดการ" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -239,7 +239,7 @@
     > หมายเหตุ
     > "การลบจะซ่อนรายการนี้ออกจากการใช้งาน แต่ข้อมูลวิเคราะห์ย้อนหลังยังคงอยู่"
 
-## 5. ปัญหาที่พบบ่อย (FAQ)
+##  ปัญหาที่พบบ่อย (FAQ)
 
 **1. ทำไมค้นหาโปรโมชันไม่เจอในหน้าเพิ่มหรือแก้ไขช่องทาง?**
 * **สาเหตุ:** สามารถเลือกได้เฉพาะโปรโมชันสำหรับสมาชิกใหม่

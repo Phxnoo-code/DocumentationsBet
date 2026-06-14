@@ -9,18 +9,18 @@
 ## วิธีเข้าถึงหน้านี้
 * **ไปที่:** เมนูหลังบ้าน > หมวด **สรุปภาพรวม** > เลือกเมนูย่อย **ผู้ใช้ออนไลน์**
 
-## Quick Reference
+<!-- ## Quick Reference
 
 | ส่วน | ใช้สำหรับ |
 |---|---|
 | **แถบเครื่องมือและสรุปข้อมูล** | ดูค่าเฉลี่ยออนไลน์ จุดสูงสุด จุดต่ำสุด จำนวน Snapshot และเลือกช่วงวันที่ |
 | **กราฟสมาชิกออนไลน์** | ดูแนวโน้มจำนวนสมาชิกออนไลน์ตามเวลา |
 | **สรุปข้อมูลเชิงลึก** | วิเคราะห์ช่วงเวลาพีค รายวัน รายชั่วโมง และรูปแบบการเข้าใช้งาน |
-| **โหมดเปรียบเทียบ** | เปรียบเทียบจำนวนผู้ใช้งานระหว่าง 2 ช่วงเวลาเพื่อวัดผลแคมเปญ |
+| **โหมดเปรียบเทียบ** | เปรียบเทียบจำนวนผู้ใช้งานระหว่าง 2 ช่วงเวลาเพื่อวัดผลแคมเปญ | -->
 
 ## รายละเอียดของแต่ละส่วนในหน้าจอ
 
-### 3.1 แถบเครื่องมือและสรุปข้อมูล
+### 1. แถบเครื่องมือและสรุปข้อมูล
 <a href="/images/online-users/image-5.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/online-users/image-5.png" alt="แถบภาพรวมสถิติและตัวกรองข้อมูล" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
@@ -41,7 +41,7 @@
 
 ---
 
-### 3.2 กราฟจำนวนสมาชิกออนไลน์
+### 2. กราฟจำนวนสมาชิกออนไลน์
 <a href="/images/online-users/image-6.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/online-users/image-6.png" alt="กราฟจำนวนสมาชิกออนไลน์ " style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
@@ -59,7 +59,7 @@
 
 ---
 
-### 3.3 สรุปข้อมูลเชิงลึก
+### 3. สรุปข้อมูลเชิงลึก
 <a href="/images/online-users/image-4.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/online-users/image-4.png" alt="สรุปข้อมูลเชิงลึก " style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
@@ -79,11 +79,11 @@
 
 ---
 
-## 4. ฟังก์ชันพิเศษ : โหมดเปรียบเทียบ
+#### ฟังก์ชั่นเปรียบเทียบ
 
 เปิดสวิตช์ "เปรียบเทียบ" เพื่อวิเคราะห์ความแตกต่างระหว่าง 2 ช่วงเวลา และวัดผลของแคมเปญหรือการเปลี่ยนแปลงต่าง ๆ
 
-### 4.1 ช่วงเวลาเปรียบเทียบ
+##### 1. ช่วงเวลาเปรียบเทียบ
 <a href="/images/online-users/image-8.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/online-users/image-8.png" alt="การตั้งค่าตัวกรองในโหมดเปรียบเทียบ" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
@@ -100,7 +100,7 @@
 
 ---
 
-### 4.2 การแสดงผลกราฟ
+##### 2. การแสดงผลกราฟ
 <a href="/images/online-users/image-9.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/online-users/image-9.png" alt="การแสดงผลกราฟเส้น" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
@@ -113,7 +113,7 @@
 
 ---
 
-### 4.3 สรุปข้อมูลเชิงลึกในโหมดเปรียบเทียบ
+##### 3. สรุปข้อมูลเชิงลึกในโหมดเปรียบเทียบ
 <a href="/images/online-users/image-10.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/online-users/image-10.png" alt="การแสดงผลสรุปข้อมูลเชิงลึก " style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
@@ -130,7 +130,7 @@
 
 ---
 
-## 5. ปัญหาที่พบบ่อย (FAQ)
+## ปัญหาที่พบบ่อย (FAQ)
 
 **1. ทำไมกราฟไม่อัปเดตแบบวินาทีต่อวินาที**
 * **สาเหตุ:** ระบบบันทึกข้อมูลแบบ Snapshot ทุก 30 นาที เพื่อให้ประมวลผลได้มีประสิทธิภาพและแสดงแนวโน้มได้ชัดเจน

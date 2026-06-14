@@ -46,6 +46,20 @@ export default defineConfig({
                   { text: 'การตั้งค่า EXP', link: '/menu/member-ranks/exp-settings' },
                   { text: 'แท็กผู้เล่น', link: '/menu/member-ranks/player-tags' }
                 ]
+              },
+              {
+                text: 'การเงิน',
+                collapsed: false,
+                items: [
+                  { text: 'รายการฝากเงิน', link: '/menu/finance/deposit-transactions' },
+                  { text: 'รายการถอนเงิน', link: '/menu/finance/withdraw-transactions' },
+                  { text: 'สรุปธุรกรรม', link: '/menu/finance/transaction-summary' },
+                  { text: 'ตั้งค่าธุรกรรม', link: '/menu/finance/transaction-settings' },
+                  { text: 'ตั้งค่าการฝากเงิน', link: '/menu/finance/deposit-settings' },
+                  { text: 'ตั้งค่าการถอนเงิน', link: '/menu/finance/withdraw-settings' },
+                  { text: 'ตั้งค่าฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-settings' },
+                  { text: 'ประวัติฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-history' }
+                ]
               }
             ]
           }
