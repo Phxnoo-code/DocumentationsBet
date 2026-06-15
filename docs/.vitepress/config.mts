@@ -60,6 +60,33 @@ export default defineConfig({
                   { text: 'ตั้งค่าฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-settings' },
                   { text: 'ประวัติฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-history' }
                 ]
+              },
+              {
+                text: 'ช่องทางการชำระเงิน',
+                collapsed: false,
+                items: [
+                  { text: 'บัญชีธนาคาร', link: '/menu/payment-channels/bank-accounts' },
+                  { text: 'ธนาคารออโต้', link: '/menu/payment-channels/auto-banks' },
+                  { text: 'รายการฝากตรง', link: '/menu/payment-channels/deposit-direct' },
+                  { text: 'รายการถอนตรง', link: '/menu/payment-channels/withdraw-direct' },
+                ]
+              },
+              {
+                text: 'เกมเเละค่าย',
+                collapsed: false,
+                items: [
+                  { text: 'รายการเกม', link: '/menu/games/game-list' },
+                  { text: 'ค่ายเกม', link: '/menu/games/game-providers' },
+                  { text: 'การเปิดเกม', link: '/menu/games/game-activation' },
+                ]
+              },
+              {
+                text: 'การตลาด',
+                collapsed: false,
+                items: [
+                  { text: 'โปรโมชั่น', link: '/menu/marketing/promotions' },
+                  { text: 'การตลาด', link: '/menu/marketing/referral-sources' },
+                ]
               }
             ]
           }
