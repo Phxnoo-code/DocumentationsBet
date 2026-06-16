@@ -87,6 +87,30 @@ export default defineConfig({
                   { text: 'โปรโมชั่น', link: '/menu/marketing/promotions' },
                   { text: 'การตลาด', link: '/menu/marketing/referral-sources' },
                 ]
+              },
+              {
+                text: 'ชวนเพื่อนและคอมมิชชัน',
+                collapsed: false,
+                items: [
+                  { text: 'ตั้งค่าการชวนเพื่อน', link: '/menu/referral/referral-settings' },
+                  { text: 'ประวัติคอมมิชชันชวนเพื่อน', link: '/menu/referral/commission-history' },
+                  { text: 'รายการคอมมิชชัน', link: '/menu/referral/commissions' },
+                  { text: 'ประวัติคอมมิชชัน', link: '/menu/referral/credit-withdrawals' },
+                ]
+              },
+              {
+                text: 'รางวัลและกิจกรรม',
+                collapsed: false,
+                items: [
+                  { text: 'คูปอง', link: '/menu/rewards/coupons' },
+                  { text: 'กิจกรรม', link: '/menu/rewards/activities' },
+                  { text: 'คืนยอดเสีย', link: '/menu/rewards/cashback' },
+                  { text: 'ประวัติคืนยอดเสีย', link: '/menu/rewards/cashback-history' },
+                  { text: 'เช็คอินรายวัน', link: '/menu/rewards/daily-check-in' },
+                  { text: 'ประวัติเช็คอินรายวัน', link: '/menu/rewards/daily-check-in-history' },
+                  { text: 'รายการกงล้อ', link: '/menu/rewards/wheels' },
+                  { text: 'ประวัติกงล้อ', link: '/menu/rewards/wheel-history' }
+                ]
               }
             ]
           }
