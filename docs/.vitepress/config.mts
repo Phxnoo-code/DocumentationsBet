@@ -85,31 +85,66 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                   { text: 'โปรโมชั่น', link: '/menu/marketing/promotions' },
-                  { text: 'การตลาด', link: '/menu/marketing/referral-sources' },
-                ]
-              },
-              {
-                text: 'ชวนเพื่อนและคอมมิชชัน',
-                collapsed: false,
-                items: [
-                  { text: 'ตั้งค่าการชวนเพื่อน', link: '/menu/referral/referral-settings' },
-                  { text: 'ประวัติคอมมิชชันชวนเพื่อน', link: '/menu/referral/commission-history' },
-                  { text: 'รายการคอมมิชชัน', link: '/menu/referral/commissions' },
-                  { text: 'ประวัติคอมมิชชัน', link: '/menu/referral/credit-withdrawals' },
+                  { text: 'ช่องทางที่รู้จัก', link: '/menu/marketing/referral-sources' },
                 ]
               },
               {
                 text: 'รางวัลและกิจกรรม',
                 collapsed: false,
                 items: [
-                  { text: 'คูปอง', link: '/menu/rewards/coupons' },
                   { text: 'กิจกรรม', link: '/menu/rewards/activities' },
-                  { text: 'คืนยอดเสีย', link: '/menu/rewards/cashback' },
-                  { text: 'ประวัติคืนยอดเสีย', link: '/menu/rewards/cashback-history' },
+                  { text: 'คูปอง', link: '/menu/rewards/coupons' },
                   { text: 'เช็คอินรายวัน', link: '/menu/rewards/daily-check-in' },
                   { text: 'ประวัติเช็คอินรายวัน', link: '/menu/rewards/daily-check-in-history' },
                   { text: 'รายการกงล้อ', link: '/menu/rewards/wheels' },
-                  { text: 'ประวัติกงล้อ', link: '/menu/rewards/wheel-history' }
+                  { text: 'ประวัติกงล้อ', link: '/menu/rewards/wheel-history' },
+                  { text: 'คืนยอดเสีย', link: '/menu/rewards/cashback' },
+                  { text: 'ประวัติคืนยอดเสีย', link: '/menu/rewards/cashback-history' },
+                  { text: 'ตั้งค่าการชวนเพื่อน', link: '/menu/rewards/referral-settings' },
+                  { text: 'ประวัติคอมมิชชันชวนเพื่อน', link: '/menu/rewards/commission-history' },
+                  { text: 'คอมมิชชัน', link: '/menu/rewards/commissions' },
+                  { text: 'ประวัติคอมมิชชัน', link: '/menu/rewards/credit-withdrawals' },
+                ]
+              },
+              {
+                text: 'แชท LINE',
+                collapsed: false,
+                items: [
+                  { text: 'แชท', link: '/menu/line-chat/line-messaging' },
+                  { text: 'ตั้งค่าแชท', link: '/menu/line-chat/settings' },
+                  { text: 'สถิติแชท', link: '/menu/line-chat/analytics' },
+                  { text: 'แชทที่ถูกระงับ', link: '/menu/line-chat/banned' },
+                  { text: 'แชทที่ถูกปิด', link: '/menu/line-chat/closed' },
+                  { text: 'บรอดแคสต์ข้อความ', link: '/menu/line-chat/broadcast' },
+                  { text: 'ประวัติส่งข้อความ LINE', link: '/menu/line-chat/logs' },
+                  { text: 'จัดการ Flex Message', link: '/menu/line-chat/flex-messages' },
+                ]
+              },
+              {
+                text: 'ส่งข้อความ',
+                collapsed: false,
+                items: [
+                  { text: 'ส่งข้อความ', link: '/menu/Messaging/broadcasts' },
+                  { text: 'ข้อความอัติโนมัติ', link: '/menu/Messaging/auto-messages' },
+                  { text: 'ข้อความตามช่วงเวลา', link: '/menu/Messaging/scheduled-messages' },
+                  { text: 'วิเคราะห์ข้อความ', link: '/menu/Messaging/messaging-analytics' },
+                  { text: 'วิเคราะห์ Flex Message', link: '/menu/Messaging/flex-message-analytics' },
+                ]
+              },
+              {
+                text: 'เว็บไซต์และแบรนด์',
+                collapsed: false,
+                items: [
+                  { text: 'ข้อมูลเว็บไซต์', link: '/menu/website-brand/settings' },
+                  { text: 'จัดหน้าแรก', link: '/menu/website-brand/page-builder' },
+                  { text: 'เนื้อหาหน้าเว็บ', link: '/menu/website-brand/content' },
+                  { text: 'ประกาศหลังเข้าสู่ระบบ', link: '/menu/website-brand/login-announcement' },
+                  { text: 'แจ้งเตือนเงินหมด', link: '/menu/website-brand/broke-notification' },
+                  { text: 'เมนูลัดหน้าเว็บ', link: '/menu/website-brand/menu-shortcuts' },
+                  { text: 'ประกาศหลังบ้าน', link: '/menu/website-brand/announcements' },
+                  { text: 'แบรนด์และธีม', link: '/menu/website-brand/theme' },
+                  { text: 'ช่องทางติดต่อ', link: '/menu/website-brand/contact' },
+                  { text: 'แอป Android', link: '/menu/website-brand/download' },
                 ]
               }
             ]
