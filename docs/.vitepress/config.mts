@@ -26,109 +26,186 @@ export default defineConfig({
             text: 'คู่มือการใช้งาน',
             items: [
               {
-                text: 'ภาพรวมระบบ',
-                collapsed: false,
+                text: 'หลัก',
                 items: [
-                  { text: 'แดชบอร์ด', link: '/menu/system-overview/dashboard' },
-                  { text: 'วิเคราะห์โปรโมชั่น', link: '/menu/system-overview/promotions-analytics' },
-                  { text: 'ค่าเฉลี่ยตามแหล่งที่มา', link: '/menu/system-overview/traffic-source' },
-                  { text: 'ผู้ใช้ออนไลน์', link: '/menu/system-overview/online-users' }
+                  { text: 'หน้าเเรก', link: '/' },
+                  { text: 'สรุปภาพรวม', link: '/menu/system-overview/dashboard' },
+                  { text: 'ผู้ใช้ออนไลน์', link: '/menu/system-overview/online-users' },
+                  { text: 'ตัวชี้วัดระบบ', link: '/menu/system-overview/system-metrics' }
+                  // { text: 'วิเคราะห์โปรโมชั่น', link: '/menu/system-overview/promotions-analytics' },
+                  // { text: 'ค่าเฉลี่ยตามแหล่งที่มา', link: '/menu/system-overview/traffic-source' },
                 ]
               },
               {
-                text: 'สมาชิกและแรงก์',
-                collapsed: false,
+                text: 'สมาชิก',
                 items: [
                   { text: 'สมาชิก', link: '/menu/member-ranks/members' },
                   { text: 'พาร์ทเนอร์', link: '/menu/member-ranks/partners' },
-                  { text: 'ประวัติจ่ายพาร์ทเนอร์', link: '/menu/member-ranks/partner-payouts' },
-                  { text: 'แรงก์', link: '/menu/member-ranks/ranks' },
-                  { text: 'การตั้งค่า EXP', link: '/menu/member-ranks/exp-settings' },
-                  { text: 'แท็กผู้เล่น', link: '/menu/member-ranks/player-tags' }
+                  { text: 'แท็กสมาชิก', link: '/menu/member-ranks/player-tags' }
+                  // { text: 'ประวัติจ่ายพาร์ทเนอร์', link: '/menu/member-ranks/partner-payouts' },
+                  // { text: 'แรงก์', link: '/menu/member-ranks/ranks' },
+                  // { text: 'การตั้งค่า EXP', link: '/menu/member-ranks/exp-settings' },
                 ]
               },
               {
                 text: 'การเงิน',
-                collapsed: false,
+                // collapsed: false,
                 items: [
                   { text: 'รายการฝากเงิน', link: '/menu/finance/deposit-transactions' },
                   { text: 'รายการถอนเงิน', link: '/menu/finance/withdraw-transactions' },
                   { text: 'สรุปธุรกรรม', link: '/menu/finance/transaction-summary' },
                   { text: 'ตั้งค่าธุรกรรม', link: '/menu/finance/transaction-settings' },
-                  { text: 'ตั้งค่าการฝากเงิน', link: '/menu/finance/deposit-settings' },
-                  { text: 'ตั้งค่าการถอนเงิน', link: '/menu/finance/withdraw-settings' },
-                  { text: 'ตั้งค่าฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-settings' },
-                  { text: 'ประวัติฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-history' }
+                  // { text: 'ตั้งค่าการฝากเงิน', link: '/menu/finance/deposit-settings' },
+                  // { text: 'ตั้งค่าการถอนเงิน', link: '/menu/finance/withdraw-settings' },
+                  // { text: 'ตั้งค่าฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-settings' },
+                  // { text: 'ประวัติฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-history' }
                 ]
               },
               {
                 text: 'ช่องทางการชำระเงิน',
-                collapsed: false,
                 items: [
-                  { text: 'บัญชีธนาคาร', link: '/menu/payment-channels/bank-accounts' },
-                  { text: 'ธนาคารออโต้', link: '/menu/payment-channels/auto-banks' },
-                  { text: 'รายการฝากตรง', link: '/menu/payment-channels/deposit-direct' },
-                  { text: 'รายการถอนตรง', link: '/menu/payment-channels/withdraw-direct' },
+                  {
+                    text: 'บัญชีธนาคาร',
+                    link: '/menu/payment-channels/bank-accounts'
+                  },
+                  {
+                    text: 'ธนาคารออโต้',
+                    collapsed: true,
+                    items: [
+                      { text: 'ธนาคารออโต้', link: '/menu/payment-channels/auto-banks' },
+                      { text: 'รายการฝากตรง', link: '/menu/payment-channels/deposit-direct' },
+                      { text: 'รายการถอนตรง', link: '/menu/payment-channels/withdraw-direct' },
+                    ]
+                  }
                 ]
               },
               {
                 text: 'เกมเเละค่าย',
-                collapsed: false,
+                // collapsed: false,
                 items: [
-                  { text: 'รายการเกม', link: '/menu/games/game-list' },
-                  { text: 'ค่ายเกม', link: '/menu/games/game-providers' },
-                  { text: 'การเปิดเกม', link: '/menu/games/game-activation' },
+                  { text: 'จัดการเกมเเละค่าย', link: '/menu/games/settings' },
+                  // { text: 'รายการเกม', link: '/menu/games/game-list' },
+                  // { text: 'ค่ายเกม', link: '/menu/games/game-providers' },
+                  // { text: 'การเปิดเกม', link: '/menu/games/game-activation' },
                 ]
               },
               {
                 text: 'การตลาด',
-                collapsed: false,
+                // collapsed: false,
                 items: [
-                  { text: 'โปรโมชั่น', link: '/menu/marketing/promotions' },
-                  { text: 'ช่องทางที่รู้จัก', link: '/menu/marketing/referral-sources' },
+                  {
+                    text: 'โปรโมชั่น',
+                    collapsed: true,
+                    items: [
+                      { text: 'โปรโมชั่น', link: '/menu/marketing/promotions' },
+                      { text: 'วิเคราะห์โปรโมชั่น', link: '/menu/system-overview/promotions-analytics' },
+                    ]
+                  },
+                  {
+                    text: 'ช่องทางที่รู้จัก',
+                    collapsed: true,
+                    items: [
+                      { text: 'ช่องทางที่รู้จัก', link: '/menu/marketing/referral-sources' },
+                      { text: 'วิเคราะห์ช่ิงทางที่รู้จัก', link: '/menu/system-overview/traffic-source' },
+                    ]
+                  },
                 ]
               },
               {
                 text: 'รางวัลและกิจกรรม',
-                collapsed: false,
                 items: [
+                  {
+                    text: 'เเรงก์',
+                    link: '/menu/member-ranks/ranks'
+                  },
+                  {
+                    text: 'คืนยอดเสีย',
+                    collapsed: true,
+                    items: [
+                      { text: 'คืนยอดเสีย', link: '/menu/rewards/cashback' },
+                      { text: 'ประวัติคืนยอดเสีย', link: '/menu/rewards/cashback-history' },
+                    ]
+                  },
+                  {
+                    text: 'กงล้อ',
+                    collapsed: true,
+                    items: [
+                      { text: 'กงล้อ', link: '/menu/rewards/wheels' },
+                      { text: 'ประวัติกงล้อ', link: '/menu/rewards/wheel-history' },
+                    ]
+                  },
+                  {
+                    text: 'ชวนเพื่อน',
+                    collapsed: true,
+                    items: [
+                      { text: 'ตั้งค่าการชวนเพื่อน', link: '/menu/rewards/referral-settings' },
+                      { text: 'ประวัติคอมมิชชันชวนเพื่อน', link: '/menu/rewards/commission-history' },
+                    ]
+                  },
+                  {
+                    text: 'คอมมิชชัน',
+                    collapsed: true,
+                    items: [
+                      { text: 'คอมมิชชัน', link: '/menu/rewards/commissions' },
+                      { text: 'ประวัติคอมมิชชัน', link: '/menu/rewards/credit-withdrawals' },
+                    ]
+                  },
+                  {
+                    text: 'เช็คอินรายวัน',
+                    collapsed: true,
+                    items: [
+                      { text: 'เช็คอินรายวัน', link: '/menu/rewards/daily-check-in' },
+                      { text: 'ประวัติเช็คอินรายวัน', link: '/menu/rewards/daily-check-in-history' },
+                    ]
+                  },
                   { text: 'กิจกรรม', link: '/menu/rewards/activities' },
-                  { text: 'คูปอง', link: '/menu/rewards/coupons' },
-                  { text: 'เช็คอินรายวัน', link: '/menu/rewards/daily-check-in' },
-                  { text: 'ประวัติเช็คอินรายวัน', link: '/menu/rewards/daily-check-in-history' },
-                  { text: 'รายการกงล้อ', link: '/menu/rewards/wheels' },
-                  { text: 'ประวัติกงล้อ', link: '/menu/rewards/wheel-history' },
-                  { text: 'คืนยอดเสีย', link: '/menu/rewards/cashback' },
-                  { text: 'ประวัติคืนยอดเสีย', link: '/menu/rewards/cashback-history' },
-                  { text: 'ตั้งค่าการชวนเพื่อน', link: '/menu/rewards/referral-settings' },
-                  { text: 'ประวัติคอมมิชชันชวนเพื่อน', link: '/menu/rewards/commission-history' },
-                  { text: 'คอมมิชชัน', link: '/menu/rewards/commissions' },
-                  { text: 'ประวัติคอมมิชชัน', link: '/menu/rewards/credit-withdrawals' },
                 ]
               },
               {
                 text: 'แชท LINE',
-                collapsed: false,
                 items: [
-                  { text: 'แชท', link: '/menu/line-chat/line-messaging' },
-                  { text: 'ตั้งค่าแชท', link: '/menu/line-chat/settings' },
-                  { text: 'สถิติแชท', link: '/menu/line-chat/analytics' },
-                  { text: 'แชทที่ถูกระงับ', link: '/menu/line-chat/banned' },
-                  { text: 'แชทที่ถูกปิด', link: '/menu/line-chat/closed' },
-                  { text: 'บรอดแคสต์ข้อความ', link: '/menu/line-chat/broadcast' },
-                  { text: 'ประวัติส่งข้อความ LINE', link: '/menu/line-chat/logs' },
-                  { text: 'จัดการ Flex Message', link: '/menu/line-chat/flex-messages' },
+                  {
+                    text: 'แชท',
+                    link: '/menu/line-chat/line-messaging'
+                  },
+                  {
+                    text: 'จัดการแชท LINE',
+                    collapsed: false,
+                    items: [
+                      { text: 'ตั้งค่าแชท', link: '/menu/line-chat/settings' },
+                      { text: 'สถิติแชท', link: '/menu/line-chat/analytics' },
+                      { text: 'แชทที่ถูกระงับ', link: '/menu/line-chat/banned' },
+                      { text: 'แชทที่ถูกปิด', link: '/menu/line-chat/closed' },
+                      { text: 'บรอดแคสต์ข้อความ', link: '/menu/line-chat/broadcast' },
+                      { text: 'ประวัติส่งข้อความ LINE', link: '/menu/line-chat/logs' },
+                      { text: 'จัดการ Flex Message', link: '/menu/line-chat/flex-messages' },
+                    ]
+                  },
                 ]
               },
               {
                 text: 'ส่งข้อความ',
-                collapsed: false,
                 items: [
-                  { text: 'ส่งข้อความ', link: '/menu/Messaging/broadcasts' },
-                  { text: 'ข้อความอัติโนมัติ', link: '/menu/Messaging/auto-messages' },
-                  { text: 'ข้อความตามช่วงเวลา', link: '/menu/Messaging/scheduled-messages' },
-                  { text: 'วิเคราะห์ข้อความ', link: '/menu/Messaging/messaging-analytics' },
-                  { text: 'วิเคราะห์ Flex Message', link: '/menu/Messaging/flex-message-analytics' },
+                  {
+                    text: 'ส่งข้อความ',
+                    link: '/menu/Messaging/broadcasts'
+                  },
+                  {
+                    text: 'ข้อความอัตโนมัติ',
+                    link: '/menu/Messaging/auto-messages'
+                  },
+                  {
+                    text: 'ข้อความตามช่วงเวลา',
+                    link: '/menu/Messaging/scheduled-messages'
+                  },
+                  {
+                    text: 'วิเคราะห์ข้อความ',
+                    collapsed: false,
+                    items: [
+                      { text: 'วิเคราะห์ข้อความ', link: '/menu/Messaging/messaging-analytics' },
+                      { text: 'วิเคราะห์ Flex Message', link: '/menu/Messaging/flex-message-analytics' },
+                    ]
+                  },
                 ]
               },
               {
