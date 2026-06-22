@@ -83,7 +83,8 @@ export default defineConfig({
                 text: 'เกมเเละค่าย',
                 // collapsed: false,
                 items: [
-                  { text: 'จัดการเกมเเละค่าย', link: '/menu/games/settings' },
+                  { text: 'จัดการเกมเเละค่าย', link: '/menu/games/game-settings' },
+                  { text: 'โหมดปรับแตก / RTP', link: '/menu/games/setting-rtp' },
                   // { text: 'รายการเกม', link: '/menu/games/game-list' },
                   // { text: 'ค่ายเกม', link: '/menu/games/game-providers' },
                   // { text: 'การเปิดเกม', link: '/menu/games/game-activation' },

@@ -90,7 +90,7 @@
   * **ยกเลิก:** ปิดหน้าต่างโดยไม่บันทึกข้อมูล
   * **บันทึกการเปลี่ยนแปลง:** ยืนยันการบันทึกข้อมูลเข้าสู่ระบบ
 
-#### 4.1 ลำดับความสำคัญ RTP
+#### ลำดับความสำคัญ RTP
 
 <a href="/images/player-tags/image7.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/player-tags/image7.png" alt="ลำดับความสำคัญ RTP" style="width: 50%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
