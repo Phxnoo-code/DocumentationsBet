@@ -29,8 +29,8 @@
 
 ### 1. **ตัวกรองข้อมูล**
 
-<a href="/images/dashboard/image-1.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-1.png" alt="ตัวกรองข้อมูล" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-1.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-1.png" alt="ตัวกรองข้อมูล" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ส่วนนี้ใช้สำหรับกำหนดช่วงเวลาและรูปแบบการแสดงผลของข้อมูล ซึ่งมีผลกับทุกกราฟและตารางภายในหน้า โดยประกอบด้วย
@@ -48,8 +48,8 @@
 
 ### 2. **สรุปหลัก**
 
-<a href="/images/dashboard/image-2.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-2.png" alt="สรุปเงินหลัก" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-2.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-2.png" alt="สรุปเงินหลัก" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ส่วน สรุปหลัก ใช้แสดงข้อมูลภาพรวมด้านการเงินและสมาชิก โดยแบ่งเป็น 5 การ์ด
@@ -77,8 +77,8 @@
 
 ### 3. ยอดฝาก
 
-<a href="/images/dashboard/image-7.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-7.png" alt="ยอดฝาก" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-7.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-7.png" alt="ยอดฝาก" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ส่วน **ยอดฝาก** ใช้แสดงรายละเอียดเงินฝากตามประเภทโปรโมชั่นและสมาชิกใหม่ โดยแบ่งเป็น 4 การ์ด ได้แก่ ไม่รับโปร, ติดเงื่อนไข, ฝากแมนนวล และสมาชิกใหม่ที่ฝาก.
@@ -105,8 +105,8 @@
 
 ### 4. งานที่ต้องติดตาม
 
-<a href="/images/dashboard/image-8.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-8.png" alt="งานที่ต้องติดตาม" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-8.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-8.png" alt="งานที่ต้องติดตาม" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ส่วน **งานที่ต้องติดตาม** ใช้แสดงรายการสำคัญที่แอดมินควรตรวจสอบและดำเนินการต่อ โดยแบ่งเป็น 5 การ์ด ได้แก่ รายการถอนค้าง, ถอนไม่สำเร็จ, เครดิตพร้อมถอน, เครดิตติดเทิร์น และปรับเครดิต
@@ -136,8 +136,8 @@
 
 ### 5. **รางวัลและเครดิต**
 
-<a href="/images/dashboard/image-9.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-9.png" alt="รางวัลและเครดิต" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-9.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-9.png" alt="รางวัลและเครดิต" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ส่วน **รางวัลและเครดิต** ใช้แสดงข้อมูลเครดิตจากกิจกรรม รางวัล และคอมมิชชั่น โดยแบ่งเป็น 5 การ์ด ได้แก่ เครดิตกิจกรรม, รางวัลวงล้อ, รางวัลเช็คอิน, คืนยอดเสีย และคอมมิชชั่นเคลม
@@ -164,15 +164,15 @@
 
 
 #### หน้าดูรายละเอียด (ตัวอย่าง: รายงานสมาชิกที่มียอดฝาก)
-<a href="/images/dashboard/image-10.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-10.png" alt="หน้าดูรายละเอียด" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-10.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-10.png" alt="หน้าดูรายละเอียด" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 เมื่อคลิก **ดูรายละเอียด...** จากหน้าภาพรวม ระบบจะพาเข้าสู่หน้า **รายงานเจาะลึก** ซึ่งจะแสดงข้อมูลตามหมวดหมู่ที่เลือก พร้อมแถบสำหรับตรวจสอบข้อมูลก่อนดาวน์โหลดไฟล์ โดยแบ่งออกเป็น 4 ส่วน ได้แก่
 
 ####  แถบเครื่องมือและภาพรวมรายงาน
-<a href="/images/dashboard/image-16.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-16.png" alt="แถบเครื่องมือและภาพรวมรายงาน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-16.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-16.png" alt="แถบเครื่องมือและภาพรวมรายงาน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ส่วนบนสุดของหน้าต่าง ใช้สำหรับจัดการรูปแบบรายงานและบอกสถานะปัจจุบัน:
@@ -180,8 +180,8 @@
 * **กล่องข้อมูลสถานะ** บอกว่าขณะนี้กำลังดูรายงานอะไร แสดงผลแบบไหน และช่วงข้อมูลที่เลือกคือช่วงใด
 
 #### แถบเงื่อนไขการออกรายงาน
-<a href="/images/dashboard/image-20.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-20.png" alt="แถบเงื่อนไขการออกรายงาน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-20.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-20.png" alt="แถบเงื่อนไขการออกรายงาน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 เมื่อแอดมินต้องการดึงข้อมูลสมาชิกออกมาเป็นไฟล์ (Export) ระบบจะแสดงแถบเครื่องมือนี้ขึ้นมาเพื่อให้แอดมินตรวจสอบและยืนยัน "ขอบเขตของข้อมูล" ก่อนที่จะทำการดาวน์โหลด เพื่อให้ได้ไฟล์รายงานที่ตรงกับความต้องการมากที่สุด โดยแบ่งข้อมูลออกเป็น 4 คอลัมน์ ดังนี้:
@@ -196,22 +196,22 @@
   แสดงจำนวนรายการที่พบตามเงื่อนไข เพื่อให้ตรวจสอบก่อนทำการ Export
 
 #### การ์ดสรุปตัวเลข
-<a href="/images/dashboard/image-17.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-17.png" alt="การ์ดสรุปตัวเลข" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-17.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-17.png" alt="การ์ดสรุปตัวเลข" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ถัดลงมาจะมีการ์ดสรุปข้อมูลจากรายการที่ถูกกรองแล้ว ประกอบด้วย จำนวนสมาชิก, ยอดฝากรวม, โบนัสรวม และ จำนวนรายการทั้งหมดในตาราง
 
 #### ตัวกรองรายงาน
-<a href="/images/dashboard/image-18.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-18.png" alt="ตัวกรองรายงาน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-18.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-18.png" alt="ตัวกรองรายงาน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ส่วนตัวกรองข้อมูลใช้สำหรับค้นหาและจำกัดขอบเขตของข้อมูล โดยสามารถกำหนด ช่วงวันที่, ค้นหาจาก Username หรือเบอร์โทรศัพท์ และเลือกว่าจะ รวม หรือไม่รวมเครดิตฟรี ในการคำนวณรายงาน
 
 #### ตารางข้อมูล
-<a href="/images/dashboard/image-19.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-19.png" alt="ตารางข้อมูล" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-19.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-19.png" alt="ตารางข้อมูล" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ตารางด้านล่างจะแสดงรายละเอียดสมาชิกตามเงื่อนไขที่กำหนด โดยประกอบด้วย **ข้อมูลสมาชิก** (Username และเบอร์โทรศัพท์ที่ปกปิดบางส่วน), **ยอดฝากทั้งหมด** และ **วันที่-เวลาของการฝากล่าสุด**
@@ -222,15 +222,15 @@
 #### 6.1 **ยอดฝาก/ถอน**
 (กรณีเลือกช่วงเวลา "ทั้งหมด" และช่วงกราฟ "รายชั่วโมง")
 
-<a href="/images/dashboard/image-11.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-11.png" alt="ยอดฝาก/ถอน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-11.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-11.png" alt="ยอดฝาก/ถอน" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 เมื่อเลือก **ช่วงวันที่ = "ทั้งหมด** และ **ช่วงกราฟ = "รายชั่วโมง** ระบบจะแสดงข้อมูลสะสมตั้งแต่เปิดระบบจนถึงปัจจุบัน โดยกราฟจะพล็อตข้อมูลรายชั่วโมงและปรับแกนเวลาให้อ่านง่าย พร้อมแสดงช่วงเวลาที่เลือกและค่าสูงสุดของกราฟ
 
 #### 6.2 พฤติกรรมของกราฟเปรียบเทียบ
-<a href="/images/dashboard/image-22.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-22.png" alt="พฤติกรรมของกราฟเปรียบเทียบ" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-22.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-22.png" alt="พฤติกรรมของกราฟเปรียบเทียบ" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 * **การพล็อตจุดข้อมูล** แม้คุณจะเลือกให้แสดงผลแบบ "รายชั่วโมง" แต่เนื่องจากช่วงเวลา "ทั้งหมด" นั้นกว้างมาก ระบบจึงดึงข้อมูลทุกๆ ชั่วโมงมาสร้างเป็นเส้นกราฟ ทำให้เส้นกราฟที่ได้มีความละเอียดและมีความโค้งมนต่อเนื่อง
@@ -239,8 +239,8 @@
 
 
 #### 6.3 การ์ดสรุปสถิติ
-<a href="/images/dashboard/image-21.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-21.png" alt="การ์ดสรุปสถิติ" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-21.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-21.png" alt="การ์ดสรุปสถิติ" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 การ์ดสถิติทั้ง 8 ใบจะแสดงยอดสะสมทั้งหมด ได้แก่ **จำนวนธุรกรรม**, **ยอดเทิร์น**, **ยอดโอนเข้า**, **ยอดโอนออก**, **กำไรสุทธิ** (**โอนเข้า - โอนออก**), **ยอดเดิมพัน**, **ยอดจ่าย** และ **คอมมิชชั่น**
@@ -248,23 +248,23 @@
 
 #### 6.4 สรุปตามผู้ให้บริการ
 
-<a href="/images/dashboard/image-12.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-12.png" alt="สรุปตามผู้ให้บริการ" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-12.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-12.png" alt="สรุปตามผู้ให้บริการ" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ตารางด้านล่างใช้แสดงสถิติเชิงลึกแยกตามค่ายเกม โดยประกอบด้วยข้อมูลค่ายเกม, จำนวนธุรกรรม, ยอดเทิร์น, ยอดโอนเข้า-ออก, กำไรสุทธิ, ยอดเดิมพัน, ยอดจ่าย และแถวสรุปผลรวมของทุกค่ายเกม
 
 #### 6.4.1 การคลิกดูรายละเอียดเพิ่มเติม (ประวัติการเล่นรายค่าย)
-<a href="/images/dashboard/image-15.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-15.png" alt="การคลิกดูรายละเอียดเพิ่มเติม" style="width: 30%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-15.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-15.png" alt="การคลิกดูรายละเอียดเพิ่มเติม" style="width: 30%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 ที่คอลัมน์ขวาสุดของทุกแถว จะมีปุ่ม **ดูรายละเอียด** เมื่อแอดมินต้องการทราบว่าในค่ายเกมนั้นๆ มีใครเข้าไปเล่นบ้าง หรือเกิดการได้เสียขึ้นกับสมาชิกคนไหน สามารถกดที่ปุ่มนี้เพื่อเข้าไปดูรายงานเจาะลึกของค่ายนั้นได้ทันที
 
 #### 6.4.2 หน้าดูรายละเอียด (ประวัติการเล่นเกมรายค่าย)
 
-<a href="/images/dashboard/image-13.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-13.png" alt="หน้ารายละเอียดประวัติการเล่นเกม" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-13.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-13.png" alt="หน้ารายละเอียดประวัติการเล่นเกม" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 เมื่อคลิก "ดูรายละเอียด" จากตารางผู้ให้บริการ ระบบจะเข้าสู่หน้า รายละเอียดประวัติการเล่นเกม ของค่ายที่เลือก โดยแบ่งออกเป็น 3 ส่วนหลัก ดังนี้
@@ -285,8 +285,8 @@
 
 ## **ดาวน์โหลดรายงาน CSV**
 
-<a href="/images/dashboard/image-14.png" target="_blank" style="display: block; margin: 20px 0;">
-  <img src="/images/dashboard/image-14.png" alt="ดาวน์โหลดรายงาน" style="width: 50%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+<a href="/images/summary/image-14.png" target="_blank" style="display: block; margin: 20px 0;">
+  <img src="/images/summary/image-14.png" alt="ดาวน์โหลดรายงาน" style="width: 50%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 เมื่อคลิกปุ่ม "ดาวน์โหลดรายงาน" ระบบจะแสดงหน้าต่างสำหรับเลือกประเภทข้อมูลที่ต้องการส่งออกเป็นไฟล์ .CSV โดยข้อมูลทั้งหมดจะอ้างอิงตามช่วงวันที่ที่ตั้งไว้ในตัวกรองปัจจุบัน
