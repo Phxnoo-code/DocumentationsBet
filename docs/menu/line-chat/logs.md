@@ -30,9 +30,9 @@
 
 ### 1. ส่วนหัวหน้า ตัวกรอง และตารางข้อมูล
 
-<a href="/images/logs/image1.png" target="_blank" style="display: block; margin: 20px 0;">
+<!-- <a href="/images/logs/image1.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/logs/image1.png" alt="ส่วนหัวหน้า ตัวกรอง และตารางประวัติส่งข้อความ LINE" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
-</a>
+</a> -->
 
 ส่วนนี้ใช้แสดงรายการประวัติข้อความ LINE ที่ระบบเคยส่งออกไป พร้อมตัวกรองสำหรับค้นหาและตรวจสอบข้อมูลย้อนหลัง
 
@@ -58,9 +58,9 @@
 
 ### 2. หน้าต่างรายละเอียดการส่งข้อความ
 
-<a href="/images/logs/image2.png" target="_blank" style="display: block; margin: 20px 0;">
+<!-- <a href="/images/logs/image2.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/logs/image2.png" alt="หน้าต่างรายละเอียดการส่งข้อความ LINE" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
-</a>
+</a> -->
 
 หน้าต่างนี้เปิดจากปุ่ม **ดูรายละเอียด** ในตาราง ใช้สำหรับตรวจสอบข้อมูลเชิงลึกของข้อความที่ระบบส่งออกไป
 
