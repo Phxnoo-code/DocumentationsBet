@@ -53,30 +53,20 @@ export default defineConfig({
                 items: [
                   { text: 'รายการฝากเงิน', link: '/menu/finance/deposit-transactions' },
                   { text: 'รายการถอนเงิน', link: '/menu/finance/withdraw-transactions' },
-                  { text: 'สรุปธุรกรรม', link: '/menu/finance/transaction-summary' },
-                  { text: 'ตั้งค่าธุรกรรม', link: '/menu/finance/transaction-settings' },
-                  // { text: 'ตั้งค่าการฝากเงิน', link: '/menu/finance/deposit-settings' },
-                  // { text: 'ตั้งค่าการถอนเงิน', link: '/menu/finance/withdraw-settings' },
-                  // { text: 'ตั้งค่าฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-settings' },
-                  // { text: 'ประวัติฝากไม่รับโปร', link: '/menu/finance/promotion-deposit-history' }
-                ]
-              },
-              {
-                text: 'ช่องทางการชำระเงิน',
-                items: [
                   {
-                    text: 'บัญชีธนาคาร',
-                    link: '/menu/payment-channels/bank-accounts'
-                  },
-                  {
-                    text: 'ธนาคารออโต้',
+                    text: 'จัดการธนาคาร',
                     collapsed: true,
                     items: [
-                      { text: 'ธนาคารออโต้', link: '/menu/payment-channels/auto-banks' },
+                      { text: 'จัดการธนาคาร', link: '/menu/payment-channels/payment-settings' },
                       { text: 'รายการฝากตรง', link: '/menu/payment-channels/deposit-direct' },
                       { text: 'รายการถอนตรง', link: '/menu/payment-channels/withdraw-direct' },
+                      { text: 'สรุปภาพรวมธนาคาร', link: '/menu/payment-channels/payment-summary' },
+                      { text: 'ตั้งค่าเวลาฝาก', link: '/menu/payment-channels/deposit-hours' },
+                      { text: 'ตั้งค่าเวลาถอน', link: '/menu/payment-channels/withdraw-hours' },
+
                     ]
-                  }
+                  },
+                  { text: 'ตั้งค่าธุรกรรม', link: '/menu/finance/transaction-settings' }
                 ]
               },
               {

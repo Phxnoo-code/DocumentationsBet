@@ -25,7 +25,7 @@
 
 ## รายละเอียดของแต่ละส่วนในหน้าจอ
 
-### หน้าจัดการโหมดปรับแตก / RTP
+### 1. จัดการโหมดปรับแตก / RTP
 
 <a href="/images/settings-rtp/image2.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/setting-rtp/image2.png" alt="หน้าจัดการโหมดปรับแตก / RTP" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">

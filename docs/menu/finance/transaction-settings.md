@@ -192,7 +192,7 @@
 
 ---
 
-### ประวัติฝากไม่รับโปร
+### 3. ประวัติฝากไม่รับโปร
 
 <a href="/images/transaction-settings/image9.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/transaction-settings/image9.png" alt="ประวัติฝากไม่รับโปร" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
