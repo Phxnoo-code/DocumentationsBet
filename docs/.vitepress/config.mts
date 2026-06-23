@@ -32,8 +32,6 @@ export default defineConfig({
                   { text: 'สรุปภาพรวม', link: '/menu/system-overview/dashboard' },
                   { text: 'ผู้ใช้ออนไลน์', link: '/menu/system-overview/online-users' },
                   { text: 'ตัวชี้วัดระบบ', link: '/menu/system-overview/system-metrics' }
-                  // { text: 'วิเคราะห์โปรโมชั่น', link: '/menu/system-overview/promotions-analytics' },
-                  // { text: 'ค่าเฉลี่ยตามแหล่งที่มา', link: '/menu/system-overview/traffic-source' },
                 ]
               },
               {
@@ -42,9 +40,6 @@ export default defineConfig({
                   { text: 'สมาชิก', link: '/menu/member-ranks/members' },
                   { text: 'พาร์ทเนอร์', link: '/menu/member-ranks/partners' },
                   { text: 'แท็กสมาชิก', link: '/menu/member-ranks/player-tags' }
-                  // { text: 'ประวัติจ่ายพาร์ทเนอร์', link: '/menu/member-ranks/partner-payouts' },
-                  // { text: 'แรงก์', link: '/menu/member-ranks/ranks' },
-                  // { text: 'การตั้งค่า EXP', link: '/menu/member-ranks/exp-settings' },
                 ]
               },
               {
@@ -75,9 +70,6 @@ export default defineConfig({
                 items: [
                   { text: 'จัดการเกมเเละค่าย', link: '/menu/games/game-settings' },
                   { text: 'โหมดปรับแตก / RTP', link: '/menu/games/setting-rtp' },
-                  // { text: 'รายการเกม', link: '/menu/games/game-list' },
-                  // { text: 'ค่ายเกม', link: '/menu/games/game-providers' },
-                  // { text: 'การเปิดเกม', link: '/menu/games/game-activation' },
                 ]
               },
               {
@@ -97,9 +89,17 @@ export default defineConfig({
                     collapsed: true,
                     items: [
                       { text: 'ช่องทางที่รู้จัก', link: '/menu/marketing/referral-sources' },
-                      { text: 'วิเคราะห์ช่ิงทางที่รู้จัก', link: '/menu/system-overview/traffic-source' },
+                      { text: 'วิเคราะห์ช่องทางที่รู้จัก', link: '/menu/system-overview/traffic-source' },
                     ]
                   },
+                  {
+                    text: 'ส่งข้อความ',
+                    collapsed: true,
+                    items: [
+                      { text: 'ส่งข้อความ', link: '/menu/messaging/broadcasts' },
+                      { text: 'วิเคราะห์ข้อความ', link: '/menu/messaging/messaging-analytics' },
+                    ]
+                  }
                 ]
               },
               {
@@ -108,14 +108,6 @@ export default defineConfig({
                   {
                     text: 'เเรงก์',
                     link: '/menu/member-ranks/ranks'
-                  },
-                  {
-                    text: 'คืนยอดเสีย',
-                    collapsed: true,
-                    items: [
-                      { text: 'คืนยอดเสีย', link: '/menu/rewards/cashback' },
-                      { text: 'ประวัติคืนยอดเสีย', link: '/menu/rewards/cashback-history' },
-                    ]
                   },
                   {
                     text: 'กงล้อ',
@@ -133,22 +125,7 @@ export default defineConfig({
                       { text: 'ประวัติคอมมิชชันชวนเพื่อน', link: '/menu/rewards/commission-history' },
                     ]
                   },
-                  {
-                    text: 'คอมมิชชัน',
-                    collapsed: true,
-                    items: [
-                      { text: 'คอมมิชชัน', link: '/menu/rewards/commissions' },
-                      { text: 'ประวัติคอมมิชชัน', link: '/menu/rewards/credit-withdrawals' },
-                    ]
-                  },
-                  {
-                    text: 'เช็คอินรายวัน',
-                    collapsed: true,
-                    items: [
-                      { text: 'เช็คอินรายวัน', link: '/menu/rewards/daily-check-in' },
-                      { text: 'ประวัติเช็คอินรายวัน', link: '/menu/rewards/daily-check-in-history' },
-                    ]
-                  },
+                  { text: 'คูปอง', link: '/menu/rewards/coupons' },
                   { text: 'กิจกรรม', link: '/menu/rewards/activities' },
                 ]
               },
@@ -165,36 +142,10 @@ export default defineConfig({
                     items: [
                       { text: 'ตั้งค่าแชท', link: '/menu/line-chat/settings' },
                       { text: 'สถิติแชท', link: '/menu/line-chat/analytics' },
-                      { text: 'แชทที่ถูกระงับ', link: '/menu/line-chat/banned' },
-                      { text: 'แชทที่ถูกปิด', link: '/menu/line-chat/closed' },
+                      { text: 'แชทที่ถูกระงับ / ปิด', link: '/menu/line-chat/closed' },
                       { text: 'บรอดแคสต์ข้อความ', link: '/menu/line-chat/broadcast' },
                       { text: 'ประวัติส่งข้อความ LINE', link: '/menu/line-chat/logs' },
                       { text: 'จัดการ Flex Message', link: '/menu/line-chat/flex-messages' },
-                    ]
-                  },
-                ]
-              },
-              {
-                text: 'ส่งข้อความ',
-                items: [
-                  {
-                    text: 'ส่งข้อความ',
-                    link: '/menu/Messaging/broadcasts'
-                  },
-                  {
-                    text: 'ข้อความอัตโนมัติ',
-                    link: '/menu/Messaging/auto-messages'
-                  },
-                  {
-                    text: 'ข้อความตามช่วงเวลา',
-                    link: '/menu/Messaging/scheduled-messages'
-                  },
-                  {
-                    text: 'วิเคราะห์ข้อความ',
-                    collapsed: false,
-                    items: [
-                      { text: 'วิเคราะห์ข้อความ', link: '/menu/Messaging/messaging-analytics' },
-                      { text: 'วิเคราะห์ Flex Message', link: '/menu/Messaging/flex-message-analytics' },
                     ]
                   },
                 ]
@@ -205,14 +156,7 @@ export default defineConfig({
                 items: [
                   { text: 'ข้อมูลเว็บไซต์', link: '/menu/website-brand/settings' },
                   { text: 'จัดหน้าแรก', link: '/menu/website-brand/page-builder' },
-                  { text: 'เนื้อหาหน้าเว็บ', link: '/menu/website-brand/content' },
-                  { text: 'ประกาศหลังเข้าสู่ระบบ', link: '/menu/website-brand/login-announcement' },
-                  { text: 'แจ้งเตือนเงินหมด', link: '/menu/website-brand/broke-notification' },
-                  { text: 'เมนูลัดหน้าเว็บ', link: '/menu/website-brand/menu-shortcuts' },
-                  { text: 'ประกาศหลังบ้าน', link: '/menu/website-brand/announcements' },
-                  { text: 'แบรนด์และธีม', link: '/menu/website-brand/theme' },
-                  { text: 'ช่องทางติดต่อ', link: '/menu/website-brand/contact' },
-                  { text: 'แอป Android', link: '/menu/website-brand/download' },
+                  { text: 'เเจ้งเตือนเงินหมด', link: '/menu/website-brand/broke-notification' },
                 ]
               }
             ]
