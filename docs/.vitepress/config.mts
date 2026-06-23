@@ -158,7 +158,7 @@ export default defineConfig({
                   { text: 'จัดหน้าแรก', link: '/menu/website-brand/page-builder' },
                   { text: 'เเจ้งเตือนเงินหมด', link: '/menu/website-brand/broke-notification' },
                 ]
-              }
+              },
             ]
           }
         ]
