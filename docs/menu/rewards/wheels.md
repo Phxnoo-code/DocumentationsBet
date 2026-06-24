@@ -33,7 +33,7 @@
 
 ## รายละเอียดของแต่ละส่วนในหน้าจอ
 
-### ภาพรวมหน้ากงล้อ
+### 1. ภาพรวมหน้ากงล้อ
 
 <a href="/images/wheels/image1.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/wheels/image1.png" alt="ภาพรวมหน้ากงล้อ" style="width: 100%; max-width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -55,7 +55,7 @@
 
 ---
 
-### แท็บ เงื่อนไข
+### 2. แท็บ เงื่อนไข
 
 <a href="/images/wheels/image2.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/wheels/image2.png" alt="ภาพรวมแท็บเงื่อนไข" style="width: 100%; max-width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
@@ -163,7 +163,7 @@
 
 ---
 
-### แท็บ รูปภาพ
+### 3. แท็บ รูปภาพ
 
 แท็บ **รูปภาพ** ใช้สำหรับตั้งค่ารูปภาพที่แสดงบนกงล้อ เช่น เปิดหรือปิดการใช้รูปภาพ อัปโหลดรูปกงล้อ อัปโหลดรูปลูกศร หรือเลือกภาพจากเทมเพลตที่ระบบเตรียมไว้
 
@@ -202,7 +202,7 @@
 
 ---
 
-### แท็บ รางวัล
+### 4. แท็บ รางวัล
 
 <a href="/images/wheels/image12.png" target="_blank" style="display: block; margin: 20px 0;">
   <img src="/images/wheels/image12.png" alt="ภาพรวมแท็บรางวัล" style="width: 100%; max-width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">

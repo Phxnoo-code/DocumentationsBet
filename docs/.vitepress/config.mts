@@ -28,7 +28,7 @@ export default defineConfig({
               {
                 text: 'หลัก',
                 items: [
-                  { text: 'หน้าเเรก', link: '/' },
+                  { text: 'หน้าเเรก', link: '/menu/system-overview/home-page' },
                   { text: 'สรุปภาพรวม', link: '/menu/system-overview/dashboard' },
                   { text: 'ผู้ใช้ออนไลน์', link: '/menu/system-overview/online-users' },
                   { text: 'ตัวชี้วัดระบบ', link: '/menu/system-overview/system-metrics' }
@@ -140,11 +140,11 @@ export default defineConfig({
                     text: 'จัดการแชท LINE',
                     collapsed: false,
                     items: [
-                      { text: 'ตั้งค่าแชท', link: '/menu/line-chat/settings' },
-                      { text: 'สถิติแชท', link: '/menu/line-chat/analytics' },
+                      { text: 'ตั้งค่าแชท', link: '/menu/line-chat/chat-settings' },
+                      { text: 'สถิติแชท', link: '/menu/line-chat/chat-analytics' },
                       { text: 'แชทที่ถูกระงับ / ปิด', link: '/menu/line-chat/closed' },
                       { text: 'บรอดแคสต์ข้อความ', link: '/menu/line-chat/broadcast' },
-                      { text: 'ประวัติส่งข้อความ LINE', link: '/menu/line-chat/logs' },
+                      { text: 'ประวัติส่งข้อความ LINE', link: '/menu/line-chat/chat-logs' },
                       { text: 'จัดการ Flex Message', link: '/menu/line-chat/flex-messages' },
                     ]
                   },
@@ -154,7 +154,7 @@ export default defineConfig({
                 text: 'เว็บไซต์และแบรนด์',
                 collapsed: false,
                 items: [
-                  { text: 'ข้อมูลเว็บไซต์', link: '/menu/website-brand/settings' },
+                  { text: 'ข้อมูลเว็บไซต์', link: '/menu/website-brand/website-settings' },
                   { text: 'จัดหน้าแรก', link: '/menu/website-brand/page-builder' },
                   { text: 'เเจ้งเตือนเงินหมด', link: '/menu/website-brand/broke-notification' },
                 ]
