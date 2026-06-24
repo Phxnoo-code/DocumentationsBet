@@ -159,6 +159,13 @@ export default defineConfig({
                   { text: 'เเจ้งเตือนเงินหมด', link: '/menu/website-brand/broke-notification' },
                 ]
               },
+              {
+                text: 'เพิ่มเติม',
+                collapsed: false,
+                items: [
+                  { text: 'เพิ่มเติมของสรุปภาพรวม', link: '/details/system-overview/dashboard-details' },
+                ]
+              },
             ]
           }
         ]
