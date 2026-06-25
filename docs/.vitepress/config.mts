@@ -163,7 +163,24 @@ export default defineConfig({
                 text: 'เพิ่มเติม',
                 collapsed: false,
                 items: [
-                  { text: 'เพิ่มเติมของสรุปภาพรวม', link: '/details/system-overview/dashboard-details' },
+                  {
+                    text: 'สรุปภาพรวม',
+                    collapsed: false,
+                    items: [
+                      { text: 'รายละเอียดจากการ์ดสรุปหลัก', link: '/details/system-overview/dashboard/main-summary-card-detail' },
+                      { text: 'รายละเอียดประวัติการเล่นเกม', link: '/details/system-overview/dashboard/gameplay-history-detail' },
+                      { text: 'รายละเอียดการดาวน์โหลดรายงาน CSV', link: '/details/system-overview/dashboard/download-csv' },
+
+                    ]
+                  },
+                  {
+                    text: 'ผู้ใช้ออนไลน์',
+                    collapsed: false,
+                    items: [
+                      { text: 'เปรียบเทียบช่วงเวลา', link: '/details/system-overview/online-users/compare-periods' },
+
+                    ]
+                  },
                 ]
               },
             ]
